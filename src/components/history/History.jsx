@@ -111,9 +111,10 @@ const History = () => {
   });
 
   return (
-    <>
-        <div className="container text-light fs-1 fw-bold text-center " style={{marginTop:"110px"}}>ADVance-ing history</div>
-        <div className="d-flex justify-content-center  mt-4 d-flex flex-row" style={{width:"100vw"}}>
+    <div className='d-flex justify-content-center flex-column align-items-center'>
+        <div className="container text-light fs-1 fw-bold text-center " style={{marginTop:"110px"}}>        ADVance-ing history
+        </div>
+        <div className="d-flex justify-content-center  mt-4 align-items-center" style={{width:"80%"}}>
         <div className='' style={{width:"",marginLeft:''}}>
             <div className=" d-flex justify-content-end gap-2 mb-2">
                 <DownloadBtn data={data} fileName={"peoples"} className='w-100' />
@@ -249,7 +250,7 @@ const History = () => {
             </div>
             </div>
             </div>
-        </>
+        </div>
     );
 };
 

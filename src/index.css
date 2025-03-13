@@ -8,10 +8,22 @@ html {
 }
 
 body{
-background: rgb(2, 0, 36);
-background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%, rgba(2, 20, 58, 1) 100%);
+/* background: rgb(2, 0, 36);
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%, rgba(2, 20, 58, 1) 100%); */
+  background-color: #020814;
+  font-size: 10px;
+  
   font:poppins;
 }
+
+.bg-color{
+  background-color: #020814 !important;
+}
+
+.bg-first-variant{
+  background-color: #020814;
+}
+
 :root {
   --color-bg: #02143A;
   --color-bg-first-variant: #2E3E51;
@@ -31,7 +43,7 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%
 }
 
 .glass-effect {
-  background: rgba(126, 138, 198, 0.2);
+  background: rgba(68, 73, 97, 0.2);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -41,25 +53,24 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%
   color: #fff;
 }
 
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
 
-.separator{
-  position: relative;
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  height: 0.5px;
+  background-color: #ffffff;
+  margin: 0 10px;
+  /* Adjust spacing */
 }
-.separator::before{
-  content:  ' ';
-  border-bottom: 1px;
-  border-color: white;
-  width: 10;
-  background-color: white;
-  /* position:absolute;
-  background-color: white;
-  height: 1px;
-  width: 10;
-  border-bottom: 1;
-  border-color: white;
-  left: 0; */
-  bottom: 0;
-}
+
 
 .pagination-text-black * {
   color: white !important;

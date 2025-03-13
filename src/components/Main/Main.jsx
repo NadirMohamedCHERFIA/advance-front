@@ -7,9 +7,9 @@ const Main = () => {
             <div className="h1 text-align-center">
                 ADVance-ing
             </div>
-            <div className="container d-flex gap-5" style={{height:"600px"}}>
-                <div className=" h-100 w-50 d-flex flex-column justify-content-around">
-                    <div className="">
+            <div className="container d-flex gap-5 border border-success" style={{height:"40vh"}}>
+                <div className="w-50 d-flex flex-column justify-content-around border border-light">
+                    <div className="border border-danger">
                         <div class="mb-3">
                             <label for="formFile" class="form-label fw-bold">Shop visit </label>
                             <input class="form-control" type="file" id="formFile"/>

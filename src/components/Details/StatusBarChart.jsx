@@ -36,9 +36,31 @@ const StatusBarChart = ({ data }) => {
     ],
   };
 
+  const options = {
+  plugins: {
+    legend: {
+      labels: {
+        color: "white", // Change legend text color
+      },
+    },
+  },
+  scales: {
+    x: {
+      ticks: {
+        color: "white", // Change x-axis label color
+      },
+    },
+    y: {
+      ticks: {
+        color: "white", // Change y-axis label color
+      },
+    },
+  },
+};
+
   return (
-    <div style={{ width: '400px', height: '200px' }}>
-      <Bar data={chartData} />
+    <div style={{ width: '70%', height: '70%' }}>
+      <Bar data={chartData}  options={options}/>
     </div>
   );
 };

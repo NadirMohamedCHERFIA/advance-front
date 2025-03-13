@@ -36,9 +36,19 @@ const StatusPieChart = ({ data }) => {
     ],
   };
 
+  const options = {
+  plugins: {
+    legend: {
+      labels: {
+        color: "white", // Change legend text color
+      },
+    },
+  },  
+};
+
   return (
-    <div style={{ width: '400px', height: '300px' }}>
-      <Pie data={chartData} />
+    <div style={{ width: '70%%', height: '70%%' }}>
+      <Pie data={chartData} options={options}/>
     </div>
   );
 };

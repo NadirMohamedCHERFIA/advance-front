@@ -112,13 +112,18 @@ const Details = () => {
   return (
     <>
         <div className="container text-light fs-1 fw-bold text-center " style={{marginTop:"110px"}}>Shop Visits X Contracts</div>
-        <div className="  mt-4 d-flex flex-row" style={{width:"100vw"}}>
-        {/* <div className="d-flex justify-content-between mb-2">
-            <div className="w-100 d-flex align-items-center gap-1">
-
+          <div className='container my-5 d-flex flex-row gap-5 justify-content-center align-items-center glass-effect'
+                style={{width:'80%'}}
+            >
+                <div className="w-50 d-flex justify-content-center align-items-center">
+                  <StatusPieChart data={table.getFilteredRowModel().rows.map(row => row.original)} />
+                </div>
+                <div className="w-50 d-flex justify-content-center align-items-center pt-5 ">
+                  <StatusBarChart data={table.getFilteredRowModel().rows.map(row => row.original)} />
+                </div>
             </div>
-        </div> */}
-        <div className='' style={{width:"54%",marginLeft:'40px'}}>
+        <div className=" d-flex flex-column align-items-center" style={{width:"100vw"}}>
+        <div className='' style={{width:"80%"}}>
             <div className="container d-flex justify-content-end gap-2 mb-2">
                 <DownloadBtn data={data} fileName={"peoples"} className='w-100' />
                 <RefreshBtn data={data} fileName={"peoples"} className='w-100' />
@@ -251,16 +256,6 @@ const Details = () => {
                 ))}
                 </select>
             </div>
-            </div>
-            <div className='container my-5 d-flex flex-column gap-5 justify-content-center align-items-center glass-effect'
-                style={{width:'40%'}}
-            >
-                <div className="w-50 d-flex justify-content-center align-items-center">
-                <StatusPieChart data={table.getFilteredRowModel().rows.map(row => row.original)} />
-                </div>
-                <div className="w-50 d-flex justify-content-center align-items-center pt-5 ">
-                <StatusBarChart data={table.getFilteredRowModel().rows.map(row => row.original)} />
-                </div>
             </div>
             </div>
         </>

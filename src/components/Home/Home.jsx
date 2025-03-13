@@ -12,10 +12,10 @@ import airplane from "../../assets/images/airplane.png"
 
 const Home = () => {
   return (
-    <div style={{marginTop:'100px'}} className='text-light'>
+    <div style={{marginTop:'150px'}} className='text-light'>
         <img src={airplane} className="airplane-image" alt="" />
-        <div className='container d-flex' >
-            <div className="container w-55">
+        <div className='container d-flex justify-content-center gap-5' >
+            <div className="" style={{width:"40%"}}>
                 <h1 className="container text-center py-3 d-flex flex-justify-end gap-3 font-size-90">
                     <span className="mb-5"><BsClipboardDataFill/></span>
                     ADVance
@@ -53,8 +53,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <form className="w-50 glass-effect d-flex flex-column gap-2">
-                <h1 className="container ml-4 pt-4 text-center" style={{marginBottom:"60px"}}>
+            <form className="glass-effect d-flex flex-column gap-2" style={{width:"30%"}} >
+                <h1 className="container ml-4 pt-4 text-center " style={{marginBottom:"60px"}}>
                     <img className='motor-rotate' src={motor} alt="" />
                      Sign in
                 </h1>
@@ -72,7 +72,7 @@ const Home = () => {
                     <label class="form-check-label " for="exampleCheck1">Remember me!</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
-                <span className='separator text-center'>Or</span>
+                <span className='separator text-center or-separator text-light'>Or</span>
                 <button type="submit" class="btn btn-secondary"><FaWindows/> Windows auth</button>
                 <div className="form-footer text-center pt-4">Couldn't connect?
                     <a href="/"> Contact us</a>
