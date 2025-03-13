@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div style={{marginTop:'150px'}} className='text-light d-flex main-frame'>
         <img src={airplane} className="airplane-image" alt="" />
-        <div className='container d-flex justify-content-center align-items-center flex-column-reverse flex-md-row gap-5' >
+        <div className='container d-flex justify-content-center align-items-center flex-column flex-md-row gap-5' >
             <div className="w-100 w-md-50" 
             // style={{width:"40%"}}
             >
