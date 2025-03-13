@@ -12,11 +12,13 @@ import airplane from "../../assets/images/airplane.png"
 
 const Home = () => {
   return (
-    <div style={{marginTop:'150px'}} className='text-light'>
+    <div style={{marginTop:'150px'}} className='text-light d-flex main-frame'>
         <img src={airplane} className="airplane-image" alt="" />
-        <div className='container d-flex justify-content-center gap-5' >
-            <div className="" style={{width:"40%"}}>
-                <h1 className="container text-center py-3 d-flex flex-justify-end gap-3 font-size-90">
+        <div className='container d-flex justify-content-center align-items-center flex-column-reverse flex-md-row gap-5' >
+            <div className="w-100 w-md-50" 
+            // style={{width:"40%"}}
+            >
+                <h1 className="container text-center py-3  d-flex flex-justify-end gap-3 font-size-90">
                     <span className="mb-5"><BsClipboardDataFill/></span>
                     ADVance
                 </h1>
@@ -53,7 +55,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <form className="glass-effect d-flex flex-column gap-2" style={{width:"30%"}} >
+            <form className="glass-effect d-flex flex-column gap-2 w-100 w-md-50 " 
+                // style={{width:"30%"}} 
+            >
                 <h1 className="container ml-4 pt-4 text-center " style={{marginBottom:"60px"}}>
                     <img className='motor-rotate' src={motor} alt="" />
                      Sign in

@@ -107,3 +107,10 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%
     transform: rotate(0);;
   }
 }
+
+@media (max-width: 768px) {
+  .main-frame{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
