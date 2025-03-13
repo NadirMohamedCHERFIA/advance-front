@@ -113,7 +113,7 @@ const Details = () => {
     <>
         <div className="container text-light fs-1 fw-bold text-center " style={{marginTop:"110px"}}>Shop Visits X Contracts</div>
           <div className='container my-5 d-flex flex-column flex-md-row gap-5 justify-content-center align-items-center glass-effect'
-                style={{width:'80%'}}
+                // style={{width:'80%'}}
             >
                 <div className="w-50 d-flex justify-content-center align-items-center">
                   <StatusPieChart data={table.getFilteredRowModel().rows.map(row => row.original)} />

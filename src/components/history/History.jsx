@@ -114,7 +114,9 @@ const History = () => {
     <div className='d-flex justify-content-center flex-column align-items-center'>
         <div className="container text-light fs-1 fw-bold text-center " style={{marginTop:"110px"}}>        ADVance-ing history
         </div>
-        <div className="d-flex justify-content-center  mt-4 align-items-center" style={{width:"80%"}}>
+        <div className="d-flex justify-content-center px-5  mt-4 align-items-center" 
+        // style={{width:"80%"}}
+        >
         <div className='' style={{width:"",marginLeft:''}}>
             <div className=" d-flex justify-content-end gap-2 mb-2">
                 <DownloadBtn data={data} fileName={"peoples"} className='w-100' />
