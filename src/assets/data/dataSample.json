@@ -1,0 +1,402 @@
+[
+    {
+        "Id": "001",
+        "Sorte": "A",
+        "PartNumber": "43-34-12",
+        "Client": "Client A",
+        "Contract": "Contract A101",
+        "Status": "True"
+    },
+    {
+        "Id": "002",
+        "Sorte": "B",
+        "PartNumber": "44-34-12",
+        "Client": "Client B",
+        "Contract": "Contract A102",
+        "Status": "False"
+    },
+    {
+        "Id": "003",
+        "Sorte": "C",
+        "PartNumber": "45-34-12",
+        "Client": "Client C",
+        "Contract": "Contract A103",
+        "Status": "None"
+    },
+    {
+        "Id": "004",
+        "Sorte": "D",
+        "PartNumber": "46-34-12",
+        "Client": "Client D",
+        "Contract": "Contract A104",
+        "Status": "True"
+    },
+    {
+        "Id": "005",
+        "Sorte": "E",
+        "PartNumber": "47-34-12",
+        "Client": "Client E",
+        "Contract": "Contract A105",
+        "Status": "False"
+    },
+    {
+        "Id": "006",
+        "Sorte": "F",
+        "PartNumber": "48-34-12",
+        "Client": "Client F",
+        "Contract": "Contract A106",
+        "Status": "None"
+    },
+    {
+        "Id": "007",
+        "Sorte": "G",
+        "PartNumber": "49-34-12",
+        "Client": "Client G",
+        "Contract": "Contract A107",
+        "Status": "True"
+    },
+    {
+        "Id": "008",
+        "Sorte": "H",
+        "PartNumber": "50-34-12",
+        "Client": "Client H",
+        "Contract": "Contract A108",
+        "Status": "False"
+    },
+    {
+        "Id": "009",
+        "Sorte": "I",
+        "PartNumber": "51-34-12",
+        "Client": "Client I",
+        "Contract": "Contract A109",
+        "Status": "None"
+    },
+    {
+        "Id": "010",
+        "Sorte": "J",
+        "PartNumber": "52-34-12",
+        "Client": "Client J",
+        "Contract": "Contract A110",
+        "Status": "True"
+    },
+    {
+        "Id": "011",
+        "Sorte": "K",
+        "PartNumber": "53-34-12",
+        "Client": "Client K",
+        "Contract": "Contract A111",
+        "Status": "False"
+    },
+    {
+        "Id": "012",
+        "Sorte": "L",
+        "PartNumber": "54-34-12",
+        "Client": "Client L",
+        "Contract": "Contract A112",
+        "Status": "None"
+    },
+    {
+        "Id": "013",
+        "Sorte": "M",
+        "PartNumber": "55-34-12",
+        "Client": "Client M",
+        "Contract": "Contract A113",
+        "Status": "True"
+    },
+    {
+        "Id": "014",
+        "Sorte": "N",
+        "PartNumber": "56-34-12",
+        "Client": "Client N",
+        "Contract": "Contract A114",
+        "Status": "False"
+    },
+    {
+        "Id": "015",
+        "Sorte": "O",
+        "PartNumber": "57-34-12",
+        "Client": "Client O",
+        "Contract": "Contract A115",
+        "Status": "None"
+    },
+    {
+        "Id": "016",
+        "Sorte": "P",
+        "PartNumber": "58-34-12",
+        "Client": "Client P",
+        "Contract": "Contract A116",
+        "Status": "True"
+    },
+    {
+        "Id": "017",
+        "Sorte": "Q",
+        "PartNumber": "59-34-12",
+        "Client": "Client Q",
+        "Contract": "Contract A117",
+        "Status": "False"
+    },
+    {
+        "Id": "018",
+        "Sorte": "R",
+        "PartNumber": "60-34-12",
+        "Client": "Client R",
+        "Contract": "Contract A118",
+        "Status": "None"
+    },
+    {
+        "Id": "019",
+        "Sorte": "S",
+        "PartNumber": "61-34-12",
+        "Client": "Client S",
+        "Contract": "Contract A119",
+        "Status": "True"
+    },
+    {
+        "Id": "020",
+        "Sorte": "T",
+        "PartNumber": "62-34-12",
+        "Client": "Client T",
+        "Contract": "Contract A120",
+        "Status": "False"
+    },
+    {
+        "Id": "021",
+        "Sorte": "U",
+        "PartNumber": "63-34-12",
+        "Client": "Client U",
+        "Contract": "Contract A121",
+        "Status": "None"
+    },
+    {
+        "Id": "022",
+        "Sorte": "V",
+        "PartNumber": "64-34-12",
+        "Client": "Client V",
+        "Contract": "Contract A122",
+        "Status": "True"
+    },
+    {
+        "Id": "023",
+        "Sorte": "W",
+        "PartNumber": "65-34-12",
+        "Client": "Client W",
+        "Contract": "Contract A123",
+        "Status": "False"
+    },
+    {
+        "Id": "024",
+        "Sorte": "X",
+        "PartNumber": "66-34-12",
+        "Client": "Client X",
+        "Contract": "Contract A124",
+        "Status": "None"
+    },
+    {
+        "Id": "025",
+        "Sorte": "Y",
+        "PartNumber": "67-34-12",
+        "Client": "Client Y",
+        "Contract": "Contract A125",
+        "Status": "True"
+    },
+    {
+        "Id": "026",
+        "Sorte": "Z",
+        "PartNumber": "68-34-12",
+        "Client": "Client Z",
+        "Contract": "Contract A126",
+        "Status": "False"
+    },
+    {
+        "Id": "027",
+        "Sorte": "AA",
+        "PartNumber": "69-34-12",
+        "Client": "Client AA",
+        "Contract": "Contract A127",
+        "Status": "None"
+    },
+    {
+        "Id": "028",
+        "Sorte": "BB",
+        "PartNumber": "70-34-12",
+        "Client": "Client BB",
+        "Contract": "Contract A128",
+        "Status": "True"
+    },
+    {
+        "Id": "029",
+        "Sorte": "CC",
+        "PartNumber": "71-34-12",
+        "Client": "Client CC",
+        "Contract": "Contract A129",
+        "Status": "False"
+    },
+    {
+        "Id": "030",
+        "Sorte": "DD",
+        "PartNumber": "72-34-12",
+        "Client": "Client DD",
+        "Contract": "Contract A130",
+        "Status": "None"
+    },
+    {
+        "Id": "031",
+        "Sorte": "EE",
+        "PartNumber": "73-34-12",
+        "Client": "Client EE",
+        "Contract": "Contract A131",
+        "Status": "True"
+    },
+    {
+        "Id": "032",
+        "Sorte": "FF",
+        "PartNumber": "74-34-12",
+        "Client": "Client FF",
+        "Contract": "Contract A132",
+        "Status": "False"
+    },
+    {
+        "Id": "033",
+        "Sorte": "GG",
+        "PartNumber": "75-34-12",
+        "Client": "Client GG",
+        "Contract": "Contract A133",
+        "Status": "None"
+    },
+    {
+        "Id": "034",
+        "Sorte": "HH",
+        "PartNumber": "76-34-12",
+        "Client": "Client HH",
+        "Contract": "Contract A134",
+        "Status": "True"
+    },
+    {
+        "Id": "035",
+        "Sorte": "II",
+        "PartNumber": "77-34-12",
+        "Client": "Client II",
+        "Contract": "Contract A135",
+        "Status": "False"
+    },
+    {
+        "Id": "036",
+        "Sorte": "JJ",
+        "PartNumber": "78-34-12",
+        "Client": "Client JJ",
+        "Contract": "Contract A136",
+        "Status": "None"
+    },
+    {
+        "Id": "037",
+        "Sorte": "KK",
+        "PartNumber": "79-34-12",
+        "Client": "Client KK",
+        "Contract": "Contract A137",
+        "Status": "True"
+    },
+    {
+        "Id": "038",
+        "Sorte": "LL",
+        "PartNumber": "80-34-12",
+        "Client": "Client LL",
+        "Contract": "Contract A138",
+        "Status": "False"
+    },
+    {
+        "Id": "039",
+        "Sorte": "MM",
+        "PartNumber": "81-34-12",
+        "Client": "Client MM",
+        "Contract": "Contract A139",
+        "Status": "None"
+    },
+    {
+        "Id": "040",
+        "Sorte": "NN",
+        "PartNumber": "82-34-12",
+        "Client": "Client NN",
+        "Contract": "Contract A140",
+        "Status": "True"
+    },
+    {
+        "Id": "041",
+        "Sorte": "OO",
+        "PartNumber": "83-34-12",
+        "Client": "Client OO",
+        "Contract": "Contract A141",
+        "Status": "False"
+    },
+    {
+        "Id": "042",
+        "Sorte": "PP",
+        "PartNumber": "84-34-12",
+        "Client": "Client PP",
+        "Contract": "Contract A142",
+        "Status": "None"
+    },
+    {
+        "Id": "043",
+        "Sorte": "QQ",
+        "PartNumber": "85-34-12",
+        "Client": "Client QQ",
+        "Contract": "Contract A143",
+        "Status": "True"
+    },
+    {
+        "Id": "044",
+        "Sorte": "RR",
+        "PartNumber": "86-34-12",
+        "Client": "Client RR",
+        "Contract": "Contract A144",
+        "Status": "False"
+    },
+    {
+        "Id": "045",
+        "Sorte": "SS",
+        "PartNumber": "87-34-12",
+        "Client": "Client SS",
+        "Contract": "Contract A145",
+        "Status": "None"
+    },
+    {
+        "Id": "046",
+        "Sorte": "TT",
+        "PartNumber": "88-34-12",
+        "Client": "Client TT",
+        "Contract": "Contract A146",
+        "Status": "True"
+    },
+    {
+        "Id": "047",
+        "Sorte": "UU",
+        "PartNumber": "89-34-12",
+        "Client": "Client UU",
+        "Contract": "Contract A147",
+        "Status": "False"
+    },
+    {
+        "Id": "048",
+        "Sorte": "VV",
+        "PartNumber": "90-34-12",
+        "Client": "Client VV",
+        "Contract": "Contract A148",
+        "Status": "None"
+    },
+    {
+        "Id": "049",
+        "Sorte": "WW",
+        "PartNumber": "91-34-12",
+        "Client": "Client WW",
+        "Contract": "Contract A149",
+        "Status": "True"
+    },
+    {
+        "Id": "050",
+        "Sorte": "XX",
+        "PartNumber": "92-34-12",
+        "Client": "Client XX",
+        "Contract": "Contract A150",
+        "Status": "False"
+    }
+]

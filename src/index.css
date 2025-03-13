@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+background: rgb(2, 0, 36);
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 81%, rgba(2, 20, 58, 1) 100%);
+  font:poppins;
+}
+:root {
+  --color-bg: #02143A;
+  --color-bg-first-variant: #2E3E51;
+  --color-bg-variant: #131415;
+  --color-primary: #1e83ec;
+  --color-black: rgb(10, 10, 10);
+  --color-primary-variant: rgba(0, 3, 6, 0.4);
+  --move-right: 94px;
+  --color-grey: #888;
+  --color-white: #fff;
+  --color-white-variant: rgb(241, 239, 239);
+  --color-light: rgba(255, 255, 255, 0.6);
+  --container-width-lg: 75%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
+  --transition: all 400ms ease;
+}
+
+.glass-effect {
+  background: rgba(126, 138, 198, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(74, 70, 70, 0.3);
+  padding: 20px;
+  color: #fff;
+}
+
+
+.separator{
+  position: relative;
+}
+.separator::before{
+  content:  ' ';
+  border-bottom: 1px;
+  border-color: white;
+  width: 10;
+  background-color: white;
+  /* position:absolute;
+  background-color: white;
+  height: 1px;
+  width: 10;
+  border-bottom: 1;
+  border-color: white;
+  left: 0; */
+  bottom: 0;
+}
+
+.pagination-text-black * {
+  color: white !important;
+}
+
+.motor-rotate{
+  animation: rotate 60s infinite linear;
+  transform-origin: center;
+}
+
+.airplane-image{
+  position:absolute;
+  z-index: -1;
+  opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  align-items: center;
+}
+
+/* NavBar.css */
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item.active {
+  background-color: var(--bs-secondary) !important;
+  color: white !important;
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(360deg);;
+  }
+  100%{
+    transform: rotate(0);;
+  }
 }
