@@ -30,6 +30,7 @@ const NavBar = () => (
                             <li><NavLink className="dropdown-item text-light" to="/getting-started">Getting Started</NavLink></li>
                             <li><NavLink className="dropdown-item text-light" to="/details">Shop Visits X Contracts</NavLink></li>
                             <li><hr class="dropdown-divider bg-light"/></li>
+                            <li><NavLink className="dropdown-item text-light" to="/Process">View Process</NavLink></li>
                             <li><NavLink className="dropdown-item text-light" to="/history">View Historic</NavLink></li>
                         </ul>
                     </li>
