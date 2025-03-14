@@ -123,8 +123,8 @@ const Details = () => {
                 </div>
             </div>
         <div className=" d-flex flex-column align-items-center" style={{width:"100vw"}}>
-        <div className='' style={{width:"80%"}}>
-            <div className="container d-flex justify-content-end gap-2 mb-2">
+        <div className=''>
+            <div className="d-flex justify-content-end gap-2 mb-2">
                 <DownloadBtn data={data} fileName={"peoples"} className='w-100' />
                 <RefreshBtn data={data} fileName={"peoples"} className='w-100' />
             </div>
