@@ -16,7 +16,7 @@ const NavBar = () => (
                 aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"><BsBox2Fill/></span>
             </button>
-            <NavLink className="navbar-brand pl-5 fs-1 fw-bolder" to="/" >ADVance</NavLink>
+            <NavLink className="navbar-brand pl-5 fs-1 fw-bolder navbar-dark " to="/" >ADVance</NavLink>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-center flex-grow-1 fs-4">
                     <li className="nav-item active mx-2">
