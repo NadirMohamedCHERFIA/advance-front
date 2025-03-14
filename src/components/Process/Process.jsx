@@ -15,7 +15,7 @@ const initialNodes = [
   { id: '2', position: { x: 200, y: 200 }, data: { label: 'Formatting' } },
   { id: '3', position: { x: 300, y: 300 }, data: { label: 'ADVance Algo' } },
 ];
-const initialEdges = [{ id: 'e1-2', source: '1', target: '2' },{ id: 'e2-3', source: '2', target: '3' }];
+const initialEdges = [{ id: 'e1-2', source: '1', target: '2',animated: true },{ id: 'e2-3', source: '2', target: '3',animated: true }];
 
 const Process = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
@@ -26,18 +26,20 @@ const Process = () => {
     [setEdges],
   );
   return (
-    <div style={{ width: '100vw', height: '100vh', marginTop:'120px'}}>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
-      >
-        <Controls />
-        <MiniMap />
-        <Background variant="dots" gap={12} size={1} />
-      </ReactFlow>
+    <div className="">
+      <div style={{ width: '100vw', height: '100vh', marginTop:'120px'}}>
+        <ReactFlow
+          nodes={nodes}
+          edges={edges}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          onConnect={onConnect}
+        >
+          <Controls />
+          <MiniMap />
+          <Background variant="dots" gap={12} size={1} fitView />
+        </ReactFlow>
+      </div>
     </div>
   )
 }
