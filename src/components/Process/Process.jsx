@@ -45,8 +45,8 @@ const Process = () => {
   );
   return (
     <div className="" style={{marginTop:"110px"}}>
-      <div className="fs-1 text-light text-center fw-bold w-100 mb-1 d-flex justify-content-center align-items-center gap-2 pl-5">
-        <FcProcess/> 
+      <div className="fs-1  text-light text-center fw-bold w-100 mb-1 d-flex justify-content-center align-items-center gap-2 pl-5">
+        <FcProcess className='motor-rotate'/> 
         <h3 className='fs-1 fw-bold'>Process</h3>
       </div>
       <div style={{ width: '100vw', height: '70vh'}}>
